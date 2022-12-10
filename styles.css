@@ -23,8 +23,8 @@ header h1,h2  {
 
 header img{
     object-fit: cover;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 }
 
 .icons {
@@ -39,6 +39,20 @@ section h2{
 section p {
     font-family: 'Raleway', sans-serif;
     color: #252932;
+}
+
+section li {
+    list-style-type: disc;
+    color: #252932;
+}
+
+section span {
+    color: #252932;
+}
+section ul{
+    /* margin-block-start: 0 !important; */
+    padding-inline-start: 18px;
+
 }
 
 .bg-light {
