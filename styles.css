@@ -1,0 +1,58 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+:root{
+
+    /* Colors */
+    --color-bg-header: #C6D9DF;
+    --color-title: #003D74;
+    --color-section-h2: #C7DAE0;
+   
+}
+body{
+    color: var(--color-title);
+
+}
+
+header{
+    background-color: var(--color-bg-header);
+}
+
+header h1,h2  {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.icons {
+    width: 20px;
+    height: fit-content;
+    object-fit: contain;
+}
+
+section h2{
+    white-space: nowrap;
+}
+section p {
+    font-family: 'Raleway', sans-serif;
+    color: #252932;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: var(--color-section-h2) ;
+
+}
+
+.w-15{
+    width: 15%;
+}
+
+
+.progress{
+    --bs-progress-height: 8px;
+    border-radius: 30px;
+}
