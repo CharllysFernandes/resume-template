@@ -8,6 +8,10 @@
     --color-section-h2: #C7DAE0;
    
 }
+* a:link{
+    text-decoration: none;
+    cursor: pointer;
+}
 body{
     color: var(--color-title);
 
@@ -23,8 +27,11 @@ header h1,h2  {
 
 header img{
     object-fit: cover;
-    width: 300px;
-    height: 300px;
+    
+}
+
+.aspect-ratio{
+    aspect-ratio: 1 / 1;
 }
 
 .icons {
