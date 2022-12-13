@@ -13,6 +13,7 @@
     cursor: pointer;
 }
 body{
+    max-width: 1200px;
     color: var(--color-title);
 
 }
